@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-export class GFTRest {
+export class UserRest {
 
     constructor() {
         this.headers = new Map()
