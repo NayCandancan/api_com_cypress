@@ -13,8 +13,8 @@ async function gerarLogErro(ajv){
 }
 
 Cypress.Commands.add("validateContract", (file, body) => {
-    
-    cy.gftContract(file)
+
+    cy.usercontract(file)
     cy.get('@contract').then( async (contract) => {
         let ajv = new Ajv({ allErrors: true })
         let valid = ajv.validate(contract, body)

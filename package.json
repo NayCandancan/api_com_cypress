@@ -7,6 +7,10 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robsonagapito/cypress-api"
+  },
   "license": "ISC",
   "dependencies": {
     "ajv": "^6.12.6",
